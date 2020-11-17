@@ -1,24 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Resume of Prasanth Kumar B</title>
-    <link href="./css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="./css/bootstrap.min.css" rel="stylesheet" />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
     <style type="text/css">
       @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800);
       @charset "utf-8";
-      @-webkit-viewport   { width: device-width; }
-      @-moz-viewport      { width: device-width; }
-      @-ms-viewport       { width: device-width; }
-      @-o-viewport        { width: device-width; }
-      @viewport           { width: device-width; }
+      @-webkit-viewport {
+        width: device-width;
+      }
+      @-moz-viewport {
+        width: device-width;
+      }
+      @-ms-viewport {
+        width: device-width;
+      }
+      @-o-viewport {
+        width: device-width;
+      }
+      @viewport {
+        width: device-width;
+      }
 
-      body{
-        font-family: 'Open Sans', Arial, Tahoma;
+      body {
+        font-family: "Open Sans", Arial, Tahoma;
         font-weight: 400;
         color: #363636;
         background: #334960;
@@ -27,16 +40,16 @@
         font-size: 1em;
       }
 
-      .container{
+      .container {
         margin-top: 80px;
         margin-bottom: 15px;
         background: #fff;
       }
 
-      #photo-header{
+      #photo-header {
         margin-top: -75px;
       }
-      #photo{
+      #photo {
         width: 160px;
         height: 160px;
         border-radius: 50%;
@@ -45,12 +58,12 @@
         background: #334960;
         display: inline-block;
       }
-      #photo img{
+      #photo img {
         width: 150px;
         height: 150px;
         border-radius: 50%;
       }
-      #text-header h1{
+      #text-header h1 {
         margin: 0;
         padding: 0;
         font-size: 1.5em;
@@ -58,32 +71,32 @@
         text-transform: uppercase;
         letter-spacing: -1px;
       }
-      #text-header h1::first-line{
+      #text-header h1::first-line {
         font-size: 1.5em;
         font-weight: 800;
         line-height: 1.5em;
       }
-      #text-header h1 span{
+      #text-header h1 span {
         color: #334960;
         opacity: 0.7;
       }
-      #text-header h1 sup{
+      #text-header h1 sup {
         opacity: 0.5;
       }
-      #text-header:after{
+      #text-header:after {
         width: 100%;
         height: 3px;
         border-bottom: 1px solid #ddd;
         margin-top: 15px;
-        content: '';
+        content: "";
         display: block;
       }
 
-      .box{
+      .box {
         padding-bottom: 10px;
         margin-bottom: 25px;
       }
-      .box h2{
+      .box h2 {
         color: #227c74;
         font-size: 1.5em;
         font-weight: 700;
@@ -91,7 +104,7 @@
       }
 
       #awards,
-      #education{
+      #education {
         margin-top: 20px;
         margin-bottom: 0;
         position: relative;
@@ -105,26 +118,64 @@
         position: absolute;
         left: 35px;
         top: 0;
-        content: ' ';
+        content: " ";
         display: block;
         background: #32475c;
-        background: -moz-linear-gradient(top,  #ffffff 0%, #32475c 7%, #32475c 89%, #ffffff 100%);
-        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(7%,#32475c), color-stop(89%,#32475c), color-stop(100%,#ffffff));
-        background: -webkit-linear-gradient(top,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
-        background: -o-linear-gradient(top,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
-        background: -ms-linear-gradient(top,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
-        background: linear-gradient(to bottom,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
+        background: -moz-linear-gradient(
+          top,
+          #ffffff 0%,
+          #32475c 7%,
+          #32475c 89%,
+          #ffffff 100%
+        );
+        background: -webkit-gradient(
+          linear,
+          left top,
+          left bottom,
+          color-stop(0%, #ffffff),
+          color-stop(7%, #32475c),
+          color-stop(89%, #32475c),
+          color-stop(100%, #ffffff)
+        );
+        background: -webkit-linear-gradient(
+          top,
+          #ffffff 0%,
+          #32475c 7%,
+          #32475c 89%,
+          #ffffff 100%
+        );
+        background: -o-linear-gradient(
+          top,
+          #ffffff 0%,
+          #32475c 7%,
+          #32475c 89%,
+          #ffffff 100%
+        );
+        background: -ms-linear-gradient(
+          top,
+          #ffffff 0%,
+          #32475c 7%,
+          #32475c 89%,
+          #ffffff 100%
+        );
+        background: linear-gradient(
+          to bottom,
+          #ffffff 0%,
+          #32475c 7%,
+          #32475c 89%,
+          #ffffff 100%
+        );
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 );
       }
       #awards li,
-      #education li{
+      #education li {
         width: 100%;
         z-index: 2;
         position: relative;
         float: left;
       }
       #awards .year,
-      #education .year{
+      #education .year {
         width: 14%;
         background: #fff;
         padding: 10px;
@@ -132,7 +183,7 @@
         display: inline-block;
       }
       #awards .description,
-      #education .description{
+      #education .description {
         width: 83%;
         display: inline-block;
         background: #eee;
@@ -144,7 +195,7 @@
       }
       #awards .description:after,
       #education .description:after {
-        content: '';
+        content: "";
         position: absolute;
         top: 15px;
         right: 0;
@@ -157,19 +208,19 @@
         pointer-events: none;
       }
       #awards .description h3,
-      #education .description h3{
+      #education .description h3 {
         font-size: 1.2em;
         margin: 0;
         padding: 0;
         font-weight: 700;
       }
       #awards .description p,
-      #education .description p{
+      #education .description p {
         margin-top: 5px;
         padding: 0;
       }
 
-      .job{
+      .job {
         margin-bottom: 15px;
       }
       .job .details {
@@ -181,21 +232,21 @@
         border-bottom: 1px solid #ccc;
         border-right: 1px solid #ccc;
       }
-      .job .where{
+      .job .where {
         font-size: 1.2em;
         font-weight: bold;
       }
-      .job .year{
+      .job .year {
         opacity: 0.7;
       }
-      .job .profession{
+      .job .profession {
         font-size: 1.2em;
         font-weight: bold;
       }
-      .job .description{
+      .job .description {
         line-height: 1.5em;
       }
-      .job .highlights{
+      .job .highlights {
         padding: 5px 0;
         font-weight: bold;
       }
@@ -206,49 +257,49 @@
       .publication {
         margin-bottom: 0;
       }
-      .publication .name{
+      .publication .name {
         font-size: 1em;
         font-weight: bold;
       }
-      .publication .year{
-          opacity: 0.7;
+      .publication .year {
+        opacity: 0.7;
       }
-      .publication p{
+      .publication p {
         margin: 0;
         padding-top: 10px;
       }
 
-      .contact-item{
+      .contact-item {
         width: 100%;
         float: left;
       }
-      .contact-item .icon{
+      .contact-item .icon {
         padding: 10px;
         border-right: 1px solid #ccc;
         border-bottom: 1px solid #ccc;
         color: #32475c;
         background: #eee;
       }
-      .contact-item:last-child .icon{
+      .contact-item:last-child .icon {
         border-bottom: none;
       }
-      .contact-item .title{
+      .contact-item .title {
         width: 80%;
         width: calc(100% - 55px);
         font-weight: 700;
         opacity: 0.9;
       }
-      .contact-item .title.only{
+      .contact-item .title.only {
         margin-top: 10px;
       }
-      .contact-item .description{
+      .contact-item .description {
         width: 80%;
         width: calc(100% - 55px);
         color: #334960;
       }
 
       .item-interests,
-      .item-skills{
+      .item-skills {
         height: 30px;
         color: #334960;
         padding: 5px 10px;
@@ -260,7 +311,7 @@
         font-weight: 600;
       }
       .interest,
-      .skill{
+      .skill {
         color: #fff;
         display: inline-block;
         margin-right: 5px;
@@ -268,28 +319,27 @@
         padding: 5px 10px;
         background: #32475c;
         position: relative;
-        font-size: .85em;
+        font-size: 0.85em;
       }
       .skill-level {
         background-color: #227c74;
         border-radius: 4px;
         color: #fff;
         padding: 1px 8px;
-        font-size: .75em;
+        font-size: 0.75em;
         position: absolute;
         margin: 1px 10px;
       }
 
-      #language-skills .skill{
+      #language-skills .skill {
         margin: 10px 0;
         padding-bottom: 10px;
         border-bottom: 1px solid #eee;
       }
-
-          </style>
-          <style type="text/css" media="print">
-          body {
-        font-size: .95em;
+    </style>
+    <style type="text/css" media="print">
+      body {
+        font-size: 0.95em;
         -webkit-print-color-adjust: exact;
       }
 
@@ -297,7 +347,7 @@
         content: none !important;
       }
 
-      #photo{
+      #photo {
         display: none;
       }
 
@@ -315,18 +365,18 @@
         page-break-inside: avoid;
       }
 
-      .col-sm-5{
+      .col-sm-5 {
         width: 40%;
         padding: 0 15px;
       }
 
-      .col-sm-7{
+      .col-sm-7 {
         width: 60%;
         padding: 0 15px;
       }
 
       .skills .col-sm-offset-1,
-      .interests .col-sm-offset-1{
+      .interests .col-sm-offset-1 {
         margin-top: -10px;
         margin-bottom: 5px;
       }
@@ -347,7 +397,7 @@
       }
       .publication,
       .publication .panel-heading,
-      .publication .name{
+      .publication .name {
         margin: 0;
         padding: 0 5px;
         border: none;
@@ -361,13 +411,13 @@
         margin: 0;
       }
 
-      .list-group-item{
+      .list-group-item {
         border: none;
         margin: 0;
         padding: 5px 15px;
       }
-      .list-group-item:after{
-        content: '';
+      .list-group-item:after {
+        content: "";
         position: absolute;
         top: 8px;
         right: 0;
@@ -379,7 +429,6 @@
         border-width: 4px;
         pointer-events: none;
       }
-
     </style>
   </head>
   <body>
@@ -389,10 +438,18 @@
           <div id="photo-header" class="text-center">
             <!-- PHOTO (AVATAR) -->
             <div id="photo">
-              <img src="https:&#x2F;&#x2F;media-exp1.licdn.com&#x2F;dms&#x2F;image&#x2F;C5603AQFWrD8aj2mG8A&#x2F;profile-displayphoto-shrink_200_200&#x2F;0?e&#x3D;1594857600&amp;v&#x3D;beta&amp;t&#x3D;rxTTKtdxzchVgp7jKRQ6YPTCKhcfNsStwqjPgQumb24" alt="avatar">
+              <img
+                src="https:&#x2F;&#x2F;media-exp1.licdn.com&#x2F;dms&#x2F;image&#x2F;C5603AQFWrD8aj2mG8A&#x2F;profile-displayphoto-shrink_200_200&#x2F;0?e&#x3D;1594857600&amp;v&#x3D;beta&amp;t&#x3D;rxTTKtdxzchVgp7jKRQ6YPTCKhcfNsStwqjPgQumb24"
+                alt="avatar"
+              />
             </div>
-            <div id="text-header" >
-              <h1>Prasanth Kumar B<br><span>Experienced Mainframe developer | COBOL, DB2, PL&#x2F;I, JCL and VSAM | Agile Methodology</span></h1>
+            <div id="text-header">
+              <h1>
+                Prasanth Kumar B<br /><span
+                  >Experienced Mainframe developer | COBOL, DB2, PL&#x2F;I, JCL
+                  and VSAM | Agile Methodology</span
+                >
+              </h1>
             </div>
           </div>
         </div>
@@ -402,131 +459,236 @@
           <!-- ABOUT ME -->
           <div class="box">
             <h2><i class="fa fa-user ico"></i> About</h2>
-            <p>Experienced mainframe developer with proficiency in core mainframe technology areas like COBOL, DB2, PL/I, JCL and VSAM</p>
+            <p>
+              Experienced mainframe developer with proficiency in core mainframe
+              technology areas like COBOL, DB2, PL/I, JCL and VSAM
+            </p>
           </div>
           <!-- WORK EXPERIENCE -->
           <div class="box">
-            <h2><i class= "fa fa-suitcase ico"></i> Work Experience</h2>
-              <div class="job clearfix">
-                <div class="row">
-                  <div class="details">
-                    <div class="where">State Street Corporation</div>
-                    <div class="address">
-                      <a href="https:&#x2F;&#x2F;www.statestreet.com" target= "_blank"><i class="fa fa-globe ico"></i> https:&#x2F;&#x2F;www.statestreet.com</a>
-                    </div>
-                    <div class="year">December 2017 – Present</div>
+            <h2><i class="fa fa-suitcase ico"></i> Work Experience</h2>
+            <div class="job clearfix">
+              <div class="row">
+                <div class="details">
+                  <div class="where">State Street Corporation</div>
+                  <div class="address">
+                    <a
+                      href="https:&#x2F;&#x2F;www.statestreet.com"
+                      target="_blank"
+                      ><i class="fa fa-globe ico"></i>
+                      https:&#x2F;&#x2F;www.statestreet.com</a
+                    >
                   </div>
+                  <div class="year">December 2017 – Present</div>
                 </div>
-                <div class="row">
-                  <div class="job-details col-xs-11">
-                    <div class="profession">Team Lead</div>
-                    <div class="description">
-                      
-                      <div class="highlights">Highlights</div>
-                      <ul class="list-group">
-                        <li class="list-group-item">Upgraded Mainframe enterprise app that does Trade Settlement. Owned design, implementation and maintenance of components</li>
-                        <li class="list-group-item">Analyzed performance of existing programs using DB2 explain and APA. Reduces MIPS usage by tuning underperforming DB2 queries</li>
-                        <li class="list-group-item">Part of multiple projects and involved in Designing, developing and testing Enterprise mainframe applications that use COBOL/PLI/DB2 and JCL</li>
-                        <li class="list-group-item">Lead development team of 5 to 8 developers with Technology responsibility. Conducted design, code and test plan reviews while establishing, and maintaining best practices</li>
-                        <li class="list-group-item">Exposure to AGILE/SCRUM Methodology</li>
-                      </ul>
-                    </div>
+              </div>
+              <div class="row">
+                <div class="job-details col-xs-11">
+                  <div class="profession">Team Lead</div>
+                  <div class="description">
+                    <div class="highlights">Highlights</div>
+                    <ul class="list-group">
+                      <li class="list-group-item">
+                        Upgraded Mainframe enterprise app that does Trade
+                        Settlement. Owned design, implementation and maintenance
+                        of components
+                      </li>
+                      <li class="list-group-item">
+                        Analyzed performance of existing programs using DB2
+                        explain and APA. Reduces MIPS usage by tuning
+                        underperforming DB2 queries
+                      </li>
+                      <li class="list-group-item">
+                        Part of multiple projects and involved in Designing,
+                        developing and testing Enterprise mainframe applications
+                        that use COBOL/PLI/DB2 and JCL
+                      </li>
+                      <li class="list-group-item">
+                        Lead development team of 5 to 8 developers with
+                        Technology responsibility. Conducted design, code and
+                        test plan reviews while establishing, and maintaining
+                        best practices
+                      </li>
+                      <li class="list-group-item">
+                        Exposure to AGILE/SCRUM Methodology
+                      </li>
+                    </ul>
                   </div>
                 </div>
               </div>
-              <div class="job clearfix">
-                <div class="row">
-                  <div class="details">
-                    <div class="where">Cognizant Technology Solutions</div>
-                    <div class="address">
-                      <a href="https:&#x2F;&#x2F;www.cognizant.com" target= "_blank"><i class="fa fa-globe ico"></i> https:&#x2F;&#x2F;www.cognizant.com</a>
-                    </div>
-                    <div class="year">August 2014 – November 2017</div>
+            </div>
+            <div class="job clearfix">
+              <div class="row">
+                <div class="details">
+                  <div class="where">Cognizant Technology Solutions</div>
+                  <div class="address">
+                    <a
+                      href="https:&#x2F;&#x2F;www.cognizant.com"
+                      target="_blank"
+                      ><i class="fa fa-globe ico"></i>
+                      https:&#x2F;&#x2F;www.cognizant.com</a
+                    >
                   </div>
+                  <div class="year">August 2014 – November 2017</div>
                 </div>
-                <div class="row">
-                  <div class="job-details col-xs-11">
-                    <div class="profession">Associate</div>
-                    <div class="description">
-                      
-                      <div class="highlights">Highlights</div>
-                      <ul class="list-group">
-                        <li class="list-group-item">Involved in mainframe development and implementation of changes to accommodate The Affordable Care Act using COBOL, IMS DB and JCL.</li>
-                        <li class="list-group-item">Requirements gathering, Analysis, Design, Development, Unit testing, Implementation and SIT/UAT support to extract and feed data to external vendor for member enrollment. Used COBOL, IMS DB/DC, DB2 and JCL</li>
-                        <li class="list-group-item">Developed new screens using COBOL, MFS, IMS DB and IMS DC for Dental copay changes.</li>
-                        <li class="list-group-item">Maintained existing screens for enrollment process.</li>
-                        <li class="list-group-item">Analysed existing COBOL programs that were running longer and optimized the code to reduce both Elapsed time and CPU time using APA, SyncSort and COBOL/DB2</li>
-                        <li class="list-group-item">Using ReXX automated changes to 3000+ components which saved 1000+ hours of manual coding effort.</li>
-                        <li class="list-group-item">Completed major product release, meeting very aggressive, externally committed schedule and budget.</li>
-                        <li class="list-group-item">Performed IMS to DB2 conversion. The product details and Address IMS database was being converted to DB2. Modified programs by replacing IMS requests with SQL code.</li>
-                        <li class="list-group-item">Responsible for Breaking the Business Requirements into Technical Design, Development, Unit testing, SIT/UAT support and implementation for each assignment.</li>
-                        <li class="list-group-item">Arriving at an appropriate estimate for the enhancements requested by business.</li>
-                      </ul>
-                    </div>
+              </div>
+              <div class="row">
+                <div class="job-details col-xs-11">
+                  <div class="profession">Associate</div>
+                  <div class="description">
+                    <div class="highlights">Highlights</div>
+                    <ul class="list-group">
+                      <li class="list-group-item">
+                        Involved in mainframe development and implementation of
+                        changes to accommodate The Affordable Care Act using
+                        COBOL, IMS DB and JCL.
+                      </li>
+                      <li class="list-group-item">
+                        Requirements gathering, Analysis, Design, Development,
+                        Unit testing, Implementation and SIT/UAT support to
+                        extract and feed data to external vendor for member
+                        enrollment. Used COBOL, IMS DB/DC, DB2 and JCL
+                      </li>
+                      <li class="list-group-item">
+                        Developed new screens using COBOL, MFS, IMS DB and IMS
+                        DC for Dental copay changes.
+                      </li>
+                      <li class="list-group-item">
+                        Maintained existing screens for enrollment process.
+                      </li>
+                      <li class="list-group-item">
+                        Analysed existing COBOL programs that were running
+                        longer and optimized the code to reduce both Elapsed
+                        time and CPU time using APA, SyncSort and COBOL/DB2
+                      </li>
+                      <li class="list-group-item">
+                        Using ReXX automated changes to 3000+ components which
+                        saved 1000+ hours of manual coding effort.
+                      </li>
+                      <li class="list-group-item">
+                        Completed major product release, meeting very
+                        aggressive, externally committed schedule and budget.
+                      </li>
+                      <li class="list-group-item">
+                        Performed IMS to DB2 conversion. The product details and
+                        Address IMS database was being converted to DB2.
+                        Modified programs by replacing IMS requests with SQL
+                        code.
+                      </li>
+                      <li class="list-group-item">
+                        Responsible for Breaking the Business Requirements into
+                        Technical Design, Development, Unit testing, SIT/UAT
+                        support and implementation for each assignment.
+                      </li>
+                      <li class="list-group-item">
+                        Arriving at an appropriate estimate for the enhancements
+                        requested by business.
+                      </li>
+                    </ul>
                   </div>
                 </div>
               </div>
-              <div class="job clearfix">
-                <div class="row">
-                  <div class="details">
-                    <div class="where">Infosys</div>
-                    <div class="address">
-                      <a href="https:&#x2F;&#x2F;www.infosys.com&#x2F;" target= "_blank"><i class="fa fa-globe ico"></i> https:&#x2F;&#x2F;www.infosys.com&#x2F;</a>
-                    </div>
-                    <div class="year">April 2014 – July 2014</div>
+            </div>
+            <div class="job clearfix">
+              <div class="row">
+                <div class="details">
+                  <div class="where">Infosys</div>
+                  <div class="address">
+                    <a
+                      href="https:&#x2F;&#x2F;www.infosys.com&#x2F;"
+                      target="_blank"
+                      ><i class="fa fa-globe ico"></i>
+                      https:&#x2F;&#x2F;www.infosys.com&#x2F;</a
+                    >
                   </div>
+                  <div class="year">April 2014 – July 2014</div>
                 </div>
-                <div class="row">
-                  <div class="job-details col-xs-11">
-                    <div class="profession">Technology Analyst</div>
-                    <div class="description">
-                      
-                      <div class="highlights">Highlights</div>
-                      <ul class="list-group">
-                        <li class="list-group-item">Extracting data as required by business.</li>
-                        <li class="list-group-item">Maintained existing data migration programs/Jobs with occasional upgrades and enhancements.</li>
-                        <li class="list-group-item">Tracking the progress of data migration.</li>
-                      </ul>
-                    </div>
+              </div>
+              <div class="row">
+                <div class="job-details col-xs-11">
+                  <div class="profession">Technology Analyst</div>
+                  <div class="description">
+                    <div class="highlights">Highlights</div>
+                    <ul class="list-group">
+                      <li class="list-group-item">
+                        Extracting data as required by business.
+                      </li>
+                      <li class="list-group-item">
+                        Maintained existing data migration programs/Jobs with
+                        occasional upgrades and enhancements.
+                      </li>
+                      <li class="list-group-item">
+                        Tracking the progress of data migration.
+                      </li>
+                    </ul>
                   </div>
                 </div>
               </div>
-              <div class="job clearfix">
-                <div class="row">
-                  <div class="details">
-                    <div class="where">Mindtree Ltd</div>
-                    <div class="address">
-                      <a href="https:&#x2F;&#x2F;www.mindtree.com&#x2F;" target= "_blank"><i class="fa fa-globe ico"></i> https:&#x2F;&#x2F;www.mindtree.com&#x2F;</a>
-                    </div>
-                    <div class="year">November 2010 – April 2014</div>
+            </div>
+            <div class="job clearfix">
+              <div class="row">
+                <div class="details">
+                  <div class="where">Mindtree Ltd</div>
+                  <div class="address">
+                    <a
+                      href="https:&#x2F;&#x2F;www.mindtree.com&#x2F;"
+                      target="_blank"
+                      ><i class="fa fa-globe ico"></i>
+                      https:&#x2F;&#x2F;www.mindtree.com&#x2F;</a
+                    >
                   </div>
+                  <div class="year">November 2010 – April 2014</div>
                 </div>
-                <div class="row">
-                  <div class="job-details col-xs-11">
-                    <div class="profession">Senior Engineer</div>
-                    <div class="description">
-                      
-                      <div class="highlights">Highlights</div>
-                      <ul class="list-group">
-                        <li class="list-group-item">Analyzing the business requirements and transforming the requirements to Functional design specifications, coding, unit testing and implementation.</li>
-                        <li class="list-group-item">Derived solutions for critical project problems, which were later reused by the rest of the team not only in the current project but others too</li>
-                        <li class="list-group-item">Assisted junior team members, reviewed work, and wrote code to overcome challenging technical issues.</li>
-                        <li class="list-group-item">Analyzed the job log and resolved production ABENDs; performed impact analysis to resolve user queries.</li>
-                        <li class="list-group-item">Analyzed, designed and programmed new COBOL/DB2, JCL JOBs, PROCs for daily, monthly & yearly Reporting purposes.</li>
-                        <li class="list-group-item">Created Reports using DB2, QMF and JCL</li>
-                        <li class="list-group-item">Coded Excel Macro tool for earnings calculation for the client which proved to be very handy for many items that client was doing manually.</li>
-                      </ul>
-                    </div>
+              </div>
+              <div class="row">
+                <div class="job-details col-xs-11">
+                  <div class="profession">Senior Engineer</div>
+                  <div class="description">
+                    <div class="highlights">Highlights</div>
+                    <ul class="list-group">
+                      <li class="list-group-item">
+                        Analyzing the business requirements and transforming the
+                        requirements to Functional design specifications,
+                        coding, unit testing and implementation.
+                      </li>
+                      <li class="list-group-item">
+                        Derived solutions for critical project problems, which
+                        were later reused by the rest of the team not only in
+                        the current project but others too
+                      </li>
+                      <li class="list-group-item">
+                        Assisted junior team members, reviewed work, and wrote
+                        code to overcome challenging technical issues.
+                      </li>
+                      <li class="list-group-item">
+                        Analyzed the job log and resolved production ABENDs;
+                        performed impact analysis to resolve user queries.
+                      </li>
+                      <li class="list-group-item">
+                        Analyzed, designed and programmed new COBOL/DB2, JCL
+                        JOBs, PROCs for daily, monthly & yearly Reporting
+                        purposes.
+                      </li>
+                      <li class="list-group-item">
+                        Created Reports using DB2, QMF and JCL
+                      </li>
+                      <li class="list-group-item">
+                        Coded Excel Macro tool for earnings calculation for the
+                        client which proved to be very handy for many items that
+                        client was doing manually.
+                      </li>
+                    </ul>
                   </div>
                 </div>
               </div>
+            </div>
           </div>
           <!-- AWARDS -->
           <div class="box">
             <h2><i class="fa fa-certificate ico"></i> Awards</h2>
             <ul id="awards" class="clearfix">
               <li>
-                <div class="year pull-left">November  2012</div>
+                <div class="year pull-left">November 2012</div>
                 <div class="description pull-right">
                   <h3>MindTree Ltd</h3>
                   <p><i class="fa fa-trophy ico"></i> Technical Excellence</p>
@@ -541,26 +703,56 @@
           <div class="box clearfix">
             <h2><i class="fa fa-bullseye ico"></i> Contact</h2>
             <div class="contact-item">
-              <div class="icon pull-left text-center"><span class="fa fa-map-marker fa-fw"></span></div>
-              <div class="title pull-right">F15, PSR Aster, Chambenahalli, Sarjapur Road</div>
-              <div class="title  pull-right">Bangalore, Karnataka 562125 India</div>
+              <div class="icon pull-left text-center">
+                <span class="fa fa-map-marker fa-fw"></span>
+              </div>
+              <div class="title pull-right">
+                F15, PSR Aster, Chambenahalli, Sarjapur Road
+              </div>
+              <div class="title pull-right">
+                Bangalore, Karnataka 562125 India
+              </div>
             </div>
             <div class="contact-item">
-              <div class="icon pull-left text-center"><span class="fa fa-phone fa-fw"></span></div>
+              <div class="icon pull-left text-center">
+                <span class="fa fa-phone fa-fw"></span>
+              </div>
               <div class="title only pull-right">(+91) 848-999-0337</div>
             </div>
             <div class="contact-item">
-              <div class="icon pull-left text-center"><span class="fa fa-envelope fa-fw"></span></div>
-              <div class="title only pull-right"><a href="mailto:iamprashand@gmail.com" target="_blank">iamprashand@gmail.com</a></div>
+              <div class="icon pull-left text-center">
+                <span class="fa fa-envelope fa-fw"></span>
+              </div>
+              <div class="title only pull-right">
+                <a href="mailto:iamprashand@gmail.com" target="_blank"
+                  >iamprashand@gmail.com</a
+                >
+              </div>
             </div>
             <div class="contact-item">
-              <div class="icon pull-left text-center"><span class="fa fa-globe fa-fw"></span></div>
-              <div class="title only pull-right"><a href="https:&#x2F;&#x2F;iamprashand.github.io&#x2F;MyResume&#x2F;" target="_blank">https:&#x2F;&#x2F;iamprashand.github.io&#x2F;MyResume&#x2F;</a></div>
+              <div class="icon pull-left text-center">
+                <span class="fa fa-globe fa-fw"></span>
+              </div>
+              <div class="title only pull-right">
+                <a
+                  href="https:&#x2F;&#x2F;iamprashand.github.io&#x2F;MyResume&#x2F;"
+                  target="_blank"
+                  >https:&#x2F;&#x2F;iamprashand.github.io&#x2F;MyResume&#x2F;</a
+                >
+              </div>
             </div>
             <div class="contact-item">
-              <div class="icon pull-left text-center"><span class="fa fa-linkedin fa-fw"></span></div>
+              <div class="icon pull-left text-center">
+                <span class="fa fa-linkedin fa-fw"></span>
+              </div>
               <div class="title pull-right">LinkedIn</div>
-              <div class="description pull-right"><a href="https:&#x2F;&#x2F;linkedin.com&#x2F;in&#x2F;prasanthbnair" target="_blank">https:&#x2F;&#x2F;linkedin.com&#x2F;in&#x2F;prasanthbnair</a></div>
+              <div class="description pull-right">
+                <a
+                  href="https:&#x2F;&#x2F;linkedin.com&#x2F;in&#x2F;prasanthbnair"
+                  target="_blank"
+                  >https:&#x2F;&#x2F;linkedin.com&#x2F;in&#x2F;prasanthbnair</a
+                >
+              </div>
             </div>
           </div>
           <!-- EDUCATION -->
@@ -571,22 +763,18 @@
                 <div class="year pull-left">2006 2009</div>
                 <div class="description pull-right">
                   <h3>The Oxford College of Engineering</h3>
-                  <p><i class= "fa fa-graduation-cap ico"></i> Master</p>
+                  <p><i class="fa fa-graduation-cap ico"></i> Master</p>
                   <p>Master of Computer Applications</p>
-                  <p>
-                    GPA: 68
-                  </p>
+                  <p>GPA: 68</p>
                 </div>
               </li>
               <li>
                 <div class="year pull-left">2003 2006</div>
                 <div class="description pull-right">
                   <h3>Sree Narayana Guru College</h3>
-                  <p><i class= "fa fa-graduation-cap ico"></i> Bachelor</p>
+                  <p><i class="fa fa-graduation-cap ico"></i> Bachelor</p>
                   <p>Biochemistry</p>
-                  <p>
-                    GPA: 64
-                  </p>
+                  <p>GPA: 64</p>
                 </div>
               </li>
             </ul>
@@ -596,101 +784,98 @@
             <h2><i class="fa fa-tasks ico"></i> Skills</h2>
             <div class="skills clearfix">
               <div class="item-skills">
-                  COBOL
-                  <span class="skill-level">4</span>
+                COBOL
+                <span class="skill-level">4</span>
               </div>
-              <div class="col-sm-offset-1 col-sm-12 clearfix">
-              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix"></div>
             </div>
             <div class="skills clearfix">
               <div class="item-skills">
-                  JCL
-                  <span class="skill-level">4</span>
+                JCL
+                <span class="skill-level">4</span>
               </div>
-              <div class="col-sm-offset-1 col-sm-12 clearfix">
-              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix"></div>
             </div>
             <div class="skills clearfix">
               <div class="item-skills">
-                  PL&#x2F;I
-                  <span class="skill-level">3</span>
+                PL&#x2F;I
+                <span class="skill-level">3</span>
               </div>
-              <div class="col-sm-offset-1 col-sm-12 clearfix">
-              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix"></div>
             </div>
             <div class="skills clearfix">
               <div class="item-skills">
-                  DB2
-                  <span class="skill-level">4</span>
+                DB2
+                <span class="skill-level">4</span>
               </div>
-              <div class="col-sm-offset-1 col-sm-12 clearfix">
-              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix"></div>
             </div>
             <div class="skills clearfix">
               <div class="item-skills">
-                  REXX
-                  <span class="skill-level">4</span>
+                REXX
+                <span class="skill-level">4</span>
               </div>
-              <div class="col-sm-offset-1 col-sm-12 clearfix">
-              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix"></div>
             </div>
             <div class="skills clearfix">
               <div class="item-skills">
-                  SORT
-                  <span class="skill-level">4</span>
+                SORT
+                <span class="skill-level">4</span>
               </div>
-              <div class="col-sm-offset-1 col-sm-12 clearfix">
-              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix"></div>
             </div>
             <div class="skills clearfix">
               <div class="item-skills">
-                  VSAM
-                  <span class="skill-level">2</span>
+                VSAM
+                <span class="skill-level">2</span>
               </div>
-              <div class="col-sm-offset-1 col-sm-12 clearfix">
-              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix"></div>
             </div>
             <div class="skills clearfix">
               <div class="item-skills">
-                  IMS DB&#x2F;DC
-                  <span class="skill-level">2</span>
+                IMS DB&#x2F;DC
+                <span class="skill-level">2</span>
               </div>
-              <div class="col-sm-offset-1 col-sm-12 clearfix">
-              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix"></div>
             </div>
             <div class="skills clearfix">
               <div class="item-skills">
-                  IBM RDz&#x2F;IDz
-                  <span class="skill-level">4</span>
+                IBM RDz&#x2F;IDz
+                <span class="skill-level">4</span>
               </div>
-              <div class="col-sm-offset-1 col-sm-12 clearfix">
-              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix"></div>
             </div>
           </div>
           <!-- LANGUAGES -->
           <div class="box">
             <h2><i class="fa fa-language ico"></i> Languages</h2>
             <ul class="list-group">
-              <li class=" list-group-item">English<span class="skill badge pull-right">Speaker</span></li>
-              <li class=" list-group-item">Malayalam<span class="skill badge pull-right">Native Speaker</span></li>
-              <li class=" list-group-item">Tamil<span class="skill badge pull-right">Speaker</span></li>
-              <li class=" list-group-item">Hindi<span class="skill badge pull-right">Speaker</span></li>
+              <li class="list-group-item">
+                English<span class="skill badge pull-right">Speaker</span>
+              </li>
+              <li class="list-group-item">
+                Malayalam<span class="skill badge pull-right"
+                  >Native Speaker</span
+                >
+              </li>
+              <li class="list-group-item">
+                Tamil<span class="skill badge pull-right">Speaker</span>
+              </li>
+              <li class="list-group-item">
+                Hindi<span class="skill badge pull-right">Speaker</span>
+              </li>
             </ul>
           </div>
           <!-- HOBBIES -->
           <div class="box">
             <h2><i class="fa fa-heart ico"></i> Interests</h2>
             <div class="interests clearfix">
-              <div class="item-interests">
-                  Photography
-              </div>
-              <div class="col-sm-offset-1 col-sm-12 clearfix">
-              </div>
+              <div class="item-interests">Photography</div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix"></div>
             </div>
           </div>
         </div>
       </div>
     </div>
-
   </body>
 </html>
